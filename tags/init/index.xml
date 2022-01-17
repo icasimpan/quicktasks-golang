@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>init on Golang | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-golang/tags/init/</link>
+    <description>Recent content in init on Golang | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Nov 2021 23:05:11 +0800</lastBuildDate><atom:link href="https://ismael.casimpan.com/quicktasks-golang/tags/init/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suggested Init Script Before Coding in Golang</title>
+      <link>https://ismael.casimpan.com/quicktasks-golang/suggested-init-script-before-coding-in-golang/</link>
+      <pubDate>Fri, 05 Nov 2021 23:05:11 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-golang/suggested-init-script-before-coding-in-golang/</guid>
+      <description>The very basic variable you need to lookout for in go is the environment variable $GOPATH. In Unix/Linux-based systems it is by default in ~/go. My preference is to put it in a directory where my go code exists. So here&amp;rsquo;s a short shell script I use:
+#!/bin/bash if [[ -z $GOPATH ]]; then export GOPATH=$(pwd) export PATH=$GOPATH/bin:$PATH echo &#39;--------------------------------------------------------&#39; echo &#39;GoLang environment now defined!&#39; echo &amp;quot; GOPATH =&amp;gt; $GOPATH&amp;quot; echo &amp;quot;Type &#39;exit&#39; to remove the GoLang environment variables.</description>
+    </item>
+    
+  </channel>
+</rss>

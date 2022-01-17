@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>godoc on Golang | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-golang/tags/godoc/</link>
+    <description>Recent content in godoc on Golang | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Nov 2021 10:05:11 +0800</lastBuildDate><atom:link href="https://ismael.casimpan.com/quicktasks-golang/tags/godoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoDoc in Local</title>
+      <link>https://ismael.casimpan.com/quicktasks-golang/godoc-in-local/</link>
+      <pubDate>Fri, 05 Nov 2021 10:05:11 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-golang/godoc-in-local/</guid>
+      <description>In your preferred directory, initialize GOPATH using the short script in Suggested GoLang Init Script.
+Then, do the following steps:
+ Install godoc  ~$ go install golang.org/x/tools/cmd/godoc@latest go: downloading golang.org/x/tools v0.1.7 go: downloading golang.org/x/sys v0.0.0-20210809222454-d867a43fc93e go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 go: downloading golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d go: downloading github.com/yuin/goldmark v1.4.0 go: downloading golang.org/x/mod v0.4.2  Run godoc  ~$ godoc using module mode; GOMOD=/dev/null  It defaults to using port 6060.
+If default port has a conflict, replace it by using parameter -http=:NNNN where NNNN is your port number.</description>
+    </item>
+    
+  </channel>
+</rss>
